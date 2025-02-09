@@ -2,6 +2,9 @@ from pathlib import Path
 
 from decouple import config
 from django.urls import reverse_lazy
+import pymysql
+pymysql.install_as_MySQLdb()
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
