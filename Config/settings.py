@@ -12,7 +12,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['165.22.83.127']
 
 INSTALLED_APPS = [
     'modeltranslation',
